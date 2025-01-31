@@ -20,31 +20,39 @@
             primary:'#FFFFFF', //white
             Secondary:'#FFF9F4', //light brown
             light:'#FFDC26', //yellow
+          },
+          fontfamily: {
+            ADLaM: ['ADLaM Display', 'serif'],
           }
+        
+
+          }
+
+          
+
         }
       }
-    }
   </script>
   <!-- FONT AWESOME CDN  -->
   <script src="https://kit.fontawesome.com/9d4123f146.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="font-ADLaM">
     <!-- THIS IS MAIN  -->
   <section class=" bg-primary max-w-screen-xl mx-auto lg:px-10">
     <!-- HEADER  -->
     <header>
         <!-- NAV  -->
-        <nav class="bg-Secondary flex items-center justify-between px-5">
+        <nav class="bg-Secondary flex items-center justify-between px-5 font-semibold">
             <div class="flex items-center space-x-2 font-semibold text-2xl "><img src="c1-assets/logo-header.png" alt="cat paw">
-            <h1 class="hidden md:flex">Browse<span>4</span>Pets</h1>
+            <h1 class="hidden md:flex">Browse<span class="font-extrabold text-light">4</span>Pets</h1>
         </div>
-            <div class="hidden md:flex"><a href="FIND A PET">Finde a pet</a>
-                <a href="BREEDS">Breeds</a>
-                <a href="CONTACT US">Contact us</a></div>
-            <div class=" hidden md:flex space-x-2 items-center "><i class="fa-solid fa-bell"></i>
+            <div class="hidden md:flex space-x-4 font-semibold "><a class="hover:text-lg" href="FIND A PET">Finde a pet</a>
+                <a class="hover:text-lg" href="BREEDS">Breeds</a>
+                <a class="hover:text-lg" href="CONTACT US">Contact us</a></div>
+            <div class=" hidden md:flex space-x-4 items-center "><i class="fa-solid fa-bell"></i>
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <button>Login</button>
-                <button>Register</button>
+                <button class=" border rounded-md border-light px-2 py-1 hover:bg-yellow-200 hover:text-xl ">Login</button>
+                <button class="border-light px-2 py-1 bg-light hover:text-xl ">Register</button>
             </div>
             <div class="md:hidden"><i class="fa-solid fa-bars"></i></div>
             </nav>
