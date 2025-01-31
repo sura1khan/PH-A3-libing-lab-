@@ -4,10 +4,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <title></title>
+  <!-- Font: AdlaM Display  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- tailwind customize  -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+        colors: {
+            dark:'black',
+            Text:'Black',
+            primary:'#FFFFFF', //white
+            Secondary:'#FFF9F4', //light brown
+            light:'#FFDC26', //yellow
+          }
+        }
+      }
+    }
+  </script>
+  <!-- FONT AWESOME CDN  -->
+  <script src="https://kit.fontawesome.com/9d4123f146.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <!-- THIS IS MAIN  -->
+  <section class=" bg-primary max-w-screen-xl mx-auto lg:px-10">
+    <!-- HEADER  -->
+    <header>
+        <!-- NAV  -->
+        <nav class="bg-Secondary flex items-center justify-between px-5">
+            <div class="flex items-center space-x-2 font-semibold text-2xl "><img src="c1-assets/logo-header.png" alt="cat paw">
+            <h1 class="hidden md:flex">Browse<span>4</span>Pets</h1>
+        </div>
+            <div class="hidden md:flex"><a href="FIND A PET">Finde a pet</a>
+                <a href="BREEDS">Breeds</a>
+                <a href="CONTACT US">Contact us</a></div>
+            <div class=" hidden md:flex space-x-2 items-center "><i class="fa-solid fa-bell"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button>Login</button>
+                <button>Register</button>
+            </div>
+            <div class="md:hidden"><i class="fa-solid fa-bars"></i></div>
+            </nav>
+        <!-- NAV END-->
+        <!-- BANNER-->
+        <!-- BANNER END-->
+        <!-- CATEGORIES-->
+        <!-- CATEGORIES END-->
+        <!-- TRENDING PRODUCTS-->
+        <!-- TRENDING PRODUCTS END-->
+        <!-- LOW PRICE SECTION-->
+        <!-- LOW PRICE SECTION END-->
+        <!-- NEWSLETTER-->
+        <!-- NEWSLETTER END-->
+        <!-- FOOTER-->
+        <!-- FOOTER-->
+        <!-- FOOTER END -->
+    </header>
+
+
+  </section>
+  
 </body>
 </html>
