@@ -10,6 +10,9 @@
 
   <title>Pet living</title>
   <!-- Font: AdlaM Display  -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -26,7 +29,7 @@
             light:'#FFDC26', //yellow
           },
           fontfamily: {
-           ' adlam': ['ADLaM Display', 'serif'],
+           'adlam': ['ADLaM Display', 'serif'],
           },
           },
         },
@@ -35,7 +38,7 @@
   <!-- FONT AWESOME CDN  -->
   <script src="https://kit.fontawesome.com/9d4123f146.js" crossorigin="anonymous"></script>
 </head>
-<body class="font-adlam text-Text">
+<body class="font-adlam text-Text  mx-10 py-5 space-y-5">
     <!-- THIS IS MAIN  -->
   <section class=" bg-primary   ">
     <!-- HEADER  -->
@@ -45,7 +48,7 @@
            <div class="flex  items-center justify-between px-5 font-semibold"> <div class="flex items-center space-x-2 font-semibold text-2xl "><img src="c1-assets/logo-header.png" alt="cat paw">
             <h1 class="hidden md:flex">Browse<span class="font-extrabold text-light">4</span>Pets</h1>
         </div>
-            <div class="hidden md:flex space-x-4 font-semibold "><a class="hover:text-lg" href="FIND A PET">Finde a pet</a>
+            <div class="hidden md:flex space-x-4 font-semibold "><a class="hover:text-lg" href="FIND A PET">Find a pet</a>
                 <a class="hover:text-lg" href="BREEDS">Breeds</a>
                 <a class="hover:text-lg" href="CONTACT US">Contact us</a></div>
             <div class=" hidden md:flex space-x-4 items-center "><i class="fa-solid fa-bell"></i>
@@ -89,7 +92,7 @@
           <div class="border rounded-md  py-3 w-full h-full bg-[#F9DF8A] text-center hover:bg-light"> <img class=" inline border rounded-full bg-white p-2  " src="c1-assets/fish-cartoon.png" alt="fish">
             <h1 class="font-semibold">small pet</h1>
             <p class="font-semibold  hover:text-white">3 items</p></div>
-          <div class="border rounded-md  py-3 w-full h-full bg-[#F9DF8A] text-center hover:bg-light"> <img class=" inline border rounded-full bg-white p-2  " src="c1-assets/rabbit-cartoon.png" alt="Rabt">
+          <div class="border rounded-md  py-3 w-full h-full bg-[#F9DF8A] text-center hover:bg-light"> <img class=" inline border rounded-full bg-white p-2  " src="c1-assets/rabbit-cartoon.png" alt="Rabit">
             <h1 class="font-semibold">Rabit</h1>
             <p class="font-semibold  hover:text-white">3 items</p></div>
           
@@ -106,14 +109,21 @@
           </div>
           <div class="md:flex space-y-4 mx-3 md:mx-auto justify-center  md:justify-between ">
             <!-- the big card  -->
-            <div class="p-5 lg:mx-auto max-w-1/2  space-y-3 items-center border rounded-lg bg-light"><h1 class="font-bold text-xl ">T-Shirt For Dogs</h1>
-            <p class="text-wrap text-md text-slate-700 ">Stylish & comfy t-shirts to keep your pup looking adorable!</p>
+            <div class="p-5 lg:mx-auto max-w-1/2  space-y-3 items-center
+            border rounded-lg bg-light">
+            <h1 class="font-bold text-xl ">T-Shirt For Dogs</h1>
+            <p class="text-wrap text-md text-slate-700 ">
+              Stylish & comfy t-shirts to keep your pup looking adorable!
+            </p>
             <button class="border rounded-md border-light px-2 py-1 bg-white hover:bg-yellow-200 hover:text-xl">Shop now</button>
             <img class="" src="c1-assets/cute-pet-mid.png" alt="Dog">
           </div>
            <!-- smaller grid card  -->
-            <div class="grid grid-cols-2 md:grid-cols-3 space-y-4 space-x-6 lg:mx-auto lg:gap-7">
-              <!--1--><div class="hidden md:flex  font-semibold space-x-4 px-5 py-2 items-center bg-white border rounded-xl hover:border-light border-3xl hover:bg-yellow-100 ">
+            <div class="grid grid-cols-2 md:grid-cols-3 space-y-4 space-x-6 
+            lg:mx-auto lg:gap-7">
+              <!--1--><div class="hidden md:flex  font-semibold space-x-4 
+              px-5 py-2 items-center bg-white border rounded-xl
+               hover:border-light border-3xl hover:bg-yellow-100 ">
                 <div>
                   <img class="border rounded-2xl p-2 bg-secondary" src="c1-assets/dog-cartoon.png" alt="">
                 </div>
@@ -122,7 +132,8 @@
                 <p>Dog items</p>
               <p>$39.00</p></div>
               </div>
-              <!--1--><div class="flex  font-semibold space-x-4 px-5 py-2 items-center bg-white border rounded-xl hover:border-light border-3xl hover:bg-yellow-100 ">
+              <!--1--><div class="flex  font-semibold space-x-4 px-5 py-2 items-center
+               bg-white border rounded-xl hover:border-light border-3xl hover:bg-yellow-100 ">
                 <div>
                   <img class="border rounded-2xl p-2 bg-secondary" src="c1-assets/dog-cartoon.png" alt="">
                 </div>
@@ -233,8 +244,32 @@
         <!-- LOW PRICE SECTION END-->
         <!-- NEWSLETTER-->
         <!-- NEWSLETTER END-->
+
         <!-- FOOTER-->
-        <!-- FOOTER-->
+        <footer class=" footer items-center p-10 bg-[#FFDC2680] text-black ">
+          <nav>
+            <h6 class="footer-title font-extrabold flex items-center gap-2"><img src="c1-assets/logo-footer.png" alt=""> Browse Pets</h6>
+            <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+          </nav>
+          <nav class="font-semibold">
+            <a class="link link-hover">Find a Pet</a>
+            <a class="link link-hover">Breeds</a>
+            <a class="link link-hover">Contact Us</a>
+          </nav>
+          <nav>
+            <h6 class="footer-title font-extrabold">Follow us on </h6>
+            <div class="grid grid-flow-col gap-4">
+            <a><i class="fa-brands fa-facebook"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-linkedin"></i></a>
+            <a><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </nav>
+        </footer>
+        <!-- Copyright -->
+        <div class="bg-[#FFDC2680] text-center py1">
+          <p class="text-sm bg-gradient-to-t from-yellow-600">© 2024 All Rights Reserved</p>
+        </div>
         <!-- FOOTER END -->
   </section>
 </body>
