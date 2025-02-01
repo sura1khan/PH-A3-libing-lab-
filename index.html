@@ -44,21 +44,28 @@
     <!-- HEADER  -->
     <header>
         <!-- NAV  -->
-        <nav class="bg-Secondary inline lg:mx-4">
-           <div class="flex  items-center justify-between px-5 font-semibold"> <div class="flex items-center space-x-2 font-semibold text-2xl "><img src="c1-assets/logo-header.png" alt="cat paw">
+        <nav class="bg-Secondary inline lg:mx-4 ">
+           <div class="flex  items-center justify-between px-5 font-semibold">
+            <div class="flex items-center space-x-2 font-semibold text-2xl ">
+            <img src="c1-assets/logo-header.png" alt="cat paw">
             <h1 class="hidden md:flex">Browse<span class="font-extrabold text-light">4</span>Pets</h1>
         </div>
-            <div class="hidden md:flex space-x-4 font-semibold "><a class="hover:text-lg" href="FIND A PET">Find a pet</a>
-                <a class="hover:text-lg" href="BREEDS">Breeds</a>
-                <a class="hover:text-lg" href="CONTACT US">Contact us</a></div>
-            <div class=" hidden md:flex space-x-4 items-center "><i class="fa-solid fa-bell"></i>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <button class=" border rounded-md border-light px-2 py-1 hover:bg-yellow-200 hover:text-xl ">Login</button>
-                <button class="border-light px-2 py-1 bg-light hover:text-xl ">Register</button>
+            <div class="hidden md:flex space-x-4 font-semibold ">
+              <a class="hover:text-lg" href="FIND A PET">Find a pet</a>
+              <a class="hover:text-lg" href="BREEDS">Breeds</a>
+              <a class="hover:text-lg" href="CONTACT US">Contact us</a>
+            </div>
+            <div class=" hidden md:flex space-x-4 items-center ">
+              <i class="fa-solid fa-bell"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <button class=" border rounded-md border-light px-2 py-1 hover:bg-yellow-200 hover:text-xl ">Login</button>
+              <button class="border-light px-2 py-1 bg-light hover:text-xl ">Register</button>
             </div>
             <div class="md:hidden"><i class="fa-solid fa-bars"></i></div>
-</div>
-           <div><hr class="border text-2xl border-light my-2 md:hidden"></div>
+          </div>
+          <div>
+            <hr class="border text-2xl border-light my-2 md:hidden">
+          </div>
             </nav>
         <!-- NAV END-->
         <!-- BANNER-->
@@ -120,7 +127,7 @@
           </div>
            <!-- smaller grid card  -->
             <div class="grid grid-cols-2 md:grid-cols-3 space-y-4 space-x-6 
-            lg:mx-auto lg:gap-7">
+            lg:mx-auto lg:gap-7 ">
               <!--1--><div class="hidden md:flex  font-semibold space-x-4 
               px-5 py-2 items-center bg-white border rounded-xl
                hover:border-light border-3xl hover:bg-yellow-100 ">
@@ -229,20 +236,45 @@
              <div> <img class="" src="c1-assets/cute-pet-mid.png" alt="Dog"></div>
          </div>
            <!-- the big card 2  -->
-         <div class="p-5 flex text-3xl w-full md:w-1/3 space-y-3 border rounded-lg
+         <div class="p-5 inline md:flex  text-3xl w-full md:w-1/3 space-y-3 border rounded-lg
          bg-gradient-to-r from-yellow-100 to-yellow-300" >
            
-             <div class="space-y-6" >
+             <div class="" >
                <h1><b>Pet grooming mitt</b></h1>
                <h1><b>$7.99</b></h1>
               
              </div>
-             <div> <img class="" src="c1-assets/cute-pet-small.png" alt="Dog"></div>
+             <div > <img src="c1-assets/cute-pet-small.png" alt="Dog"></div>
          </div>
            </div>
         </section>
         <!-- LOW PRICE SECTION END-->
         <!-- NEWSLETTER-->
+         <section>
+          <div class="md:flex items-center">
+            <div>
+              <img src="c1-assets/cute-pet-mid.png" alt="">
+            </div>
+            <div>
+              <form>
+                <h6 class="text-3xl font-bold">Get Pawsome News</h6>
+                <p>Exclusive training tips, ticks, product deals and more.</p>
+                <fieldset class="form-control w-96 bg-white">
+                  <label class="label">
+                    <span class="label-text"></span>
+                  </label>
+                  <div class="inline0  bg-white">
+                    <input class=" bg-white border border-yellow-500 rounded-l-2xl px-10"
+                      type="text"
+                      placeholder="Enter your email address "
+                      class="input input-bordered">
+                    <button class="btn btn-primary bg-[#FFDC2680] border border-yellow-500 hover:bg-yellow-500 ">Subscribe</button>
+                  </div>
+                </fieldset>
+              </form>
+          </div>
+        </div>
+         </section>
         <!-- NEWSLETTER END-->
 
         <!-- FOOTER-->
@@ -268,7 +300,7 @@
         </footer>
         <!-- Copyright -->
         <div class="bg-[#FFDC2680] text-center py1">
-          <p class="text-sm bg-gradient-to-t from-yellow-600">© 2024 All Rights Reserved</p>
+          <p class="text-sm bg-gradient-to-t from-yellow-500">© 2024 All Rights Reserved</p>
         </div>
         <!-- FOOTER END -->
   </section>
